@@ -1,7 +1,7 @@
-# HardGNN: Hard Negative Sampling Enhancement for SelfGNN
+# HardGNN: Hard Negative Contrastive Learning for Sequential Recommendation
 
 ## Overview
-HardGNN is an enhanced version of SelfGNN that incorporates hard negative sampling with InfoNCE contrastive loss to improve sequential recommendation performance. This implementation builds upon the original SelfGNN framework and adds sophisticated negative sampling strategies for better learning efficiency.
+HardGNN extends the SelfGNN framework by incorporating hard negative sampling into contrastive learning, using the InfoNCE loss to better separate positive and negative item representations. Designed for **sequential recommendation systems**, HardGNN enhances learning efficiency and recommendation accuracy by focusing on informative, challenging negatives.
 
 ## Attribution & Citation
 
